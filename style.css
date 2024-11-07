@@ -1,0 +1,92 @@
+html, body {
+ background-color: black;
+   color: white;
+   font-family: "STIX Two Text", serif;
+  margin: 1px;
+  margin-bottom: 30px;
+}
+
+header{
+ font-family: "Anek Gujarati", sans-serif;
+  color: yellow;
+    display: flex;
+  border-bottom: solid 1px white;
+  position: relative;
+  margin: 20px;
+  font-size: 80px;
+}
+
+p{
+  text-align: justify;
+}
+  
+.inicio{
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px yellow;
+}
+
+.video{
+  margin-right: 50PX;
+}
+
+.alinha{
+ align-content: center;
+}
+
+.musicas{
+ display:flex;
+  overflow-x: auto;
+  gap:10px;
+}
+
+img{
+  height:200px;
+}
+
+.otros{
+ padding-left: 20px;
+ padding-right:20px;
+ font-size: 30px;
+ color: white;
+ font-weight: 700;
+}
+
+.outros img{
+ opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: 3px solid blue;
+  box-shadow: 2px 2px 5px gray;
+}
+
+header img{
+ position: relative;
+  z-indez: -1;
+  magin-left: 400px;
+}
+
+footer{
+  font-family: "Anek Gujarati", sans-serif;
+  color: black;
+  opacity: 0.5;
+  background-color: yellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
+  padding: 20px;
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  padding-left: 450px;
+  
+}
